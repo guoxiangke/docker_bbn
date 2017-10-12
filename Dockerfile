@@ -4,8 +4,8 @@ COPY ./public-html/ /var/www/html
 VOLUME /var/www/html
 VOLUME /var/www/html/cron:rw
 
-ENV VIRTUAL_HOST bbn.vultr.yongbuzhixi.com
-ENV LETSENCRYPT_HOST bbn.vultr.yongbuzhixi.com
+ENV VIRTUAL_HOST bbn.aws3.yongbuzhixi.com
+ENV LETSENCRYPT_HOST bbn.aws3.yongbuzhixi.com
 ENV LETSENCRYPT_EMAIL=dale.tel@139.com
 
 EXPOSE 80
