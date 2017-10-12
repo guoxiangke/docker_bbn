@@ -1,1 +1,2 @@
-*/10 * * * * wget -O - http://bbn.yongbuzhixi.com/upyun_bbn_upload.php >/dev/null 2>&1
+*/10 * * * * wget -O - https://bbn.yongbuzhixi.com/upyun_bbn_upload.php >/dev/null 2>&1
+
