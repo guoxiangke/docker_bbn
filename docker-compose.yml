@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+    bbn:
+        container_name: bbn
+        image: php:apache
+        restart: always
+        network_mode: "bridge"
+        volumes:
+        - ./public-html:/var/www/html
+        environment:
+          - VIRTUAL_HOST=bbn.yongbuzhixi.com,bbn.aws3.yongbuzhixi.com
+          - LETSENCRYPT_HOST=bbn.yongbuzhixi.com,bbn.aws3.yongbuzhixi.com
+          - LETSENCRYPT_EMAIL=dale.tel@139.com
